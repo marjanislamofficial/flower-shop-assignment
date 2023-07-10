@@ -288,7 +288,7 @@ body {
     margin-top: 16px;
 }
 
-.input-container{
+.input-container {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -314,4 +314,39 @@ input {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 31px;
+}
+
+/* footer related styles */
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 128px 648px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-shop {
+    color: #FFFFFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
