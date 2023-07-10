@@ -157,3 +157,15 @@ body {
     height: 320px;
     margin: 128px 240px;
 }
+
+.service-types {
+    text-align: center;
+    margin-top: 86px;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
