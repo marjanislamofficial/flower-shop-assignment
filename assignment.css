@@ -82,7 +82,10 @@ body {
 /* flower info related styles */
 
 .flower-info-container {
+    display: flex;
+    justify-content: space-around;
     margin-top: 48px;
+    padding: 0px 240px;
 }
 
 .flower-info {
@@ -91,7 +94,12 @@ body {
     width: 464px;
     height: 538px;
 }
-
+.flower-info-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
 .flower-info-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -104,10 +112,6 @@ body {
     padding: 67px 75px 0px 75px;
 }
 
-.flower-info-2 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-}
 
 .flower-img {
     padding: 110px 78px 0 76px;
@@ -123,16 +127,10 @@ body {
     text-decoration-line: underline;
 }
 
-.flower-info-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-/* flower info related styles */
+/* flower des related styles */
 
 .flower-des-title {
     color: #272727;
-    /* text-align: center; */
     font-family: Lato;
     font-size: 24px;
     font-style: normal;
@@ -145,6 +143,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 32px;
+    padding: 0px 240px;
+
 }
 
 /* services related styles */
@@ -349,4 +349,45 @@ footer {
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* cart related styles */
+.cart-backhground {
+    background-image: url("./ioann-mark-kuznietsov-eHlVZcSrjfg-unsplash.jpg");
+    width: 80%;
+    height: 620px;
+    margin: 0px 170px 0px;
+}
+
+.cart-info {
+    background-color: rgb(58, 57, 57);
+    color: #272727;
+    text-align: center;
+    margin: -100px 600px 100px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.cart-title {
+    color: #d3cdcd;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.cart-description {
+    color: rgba(175, 171, 171, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.cart-button{
+    border-color: #FFFFFF;
+    border-radius: 15px;
+    color: white;
+    background-color: #111010;
+    padding: 22px;
+    margin-top: 25px;
 }
