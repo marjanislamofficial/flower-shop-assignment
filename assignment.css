@@ -22,7 +22,7 @@ body {
     align-items: center;
 }
 
-.header-column{
+.header-column {
     margin: 50px 100px 0px 100px;
 }
 
@@ -53,4 +53,28 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
+}
+
+/* banner related styles */
+.banner-info {
+    text-align: center;
+    margin-top: 178px;
+}
+
+.banner-info-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.banner-info-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
