@@ -244,3 +244,10 @@ body {
     line-height: 30px;
     margin-top: 24px;
 }
+/* sample images related styles */
+.sample-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 240px 128px;
+    align-items: center;
+}
